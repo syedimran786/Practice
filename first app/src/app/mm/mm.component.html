@@ -1,0 +1,60 @@
+<div class="container py-5 mt-5 border border-success rounded">
+    <h1 class="p-5 text-center">MM Page</h1>
+    <form [formGroup]="mmForm" (ngSubmit)="onSubmit(mmForm.value)">
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <select formControlName="d1" class="custom-select">
+                            <option value="">Dropdown1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <select formControlName="d2" class="custom-select">
+                            <option value="">Dropdown1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <select formControlName="d3" class="custom-select">
+                            <option value="">Dropdown1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <select formControlName="d4" class="custom-select">
+                            <option value="">Dropdown1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <select formControlName="d5" class="custom-select">
+                            <option value="">Dropdown1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <select formControlName="d6" class="custom-select">
+                            <option value="">Dropdown1</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-success" [disabled]="mmForm.invalid">
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        </button>
+      </form>
+</div>

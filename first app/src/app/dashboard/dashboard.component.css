@@ -1,0 +1,10 @@
+a,div
+{
+    margin: 20px;
+}
+
+
+mat-toolbar
+{
+    justify-content: space-between;
+}

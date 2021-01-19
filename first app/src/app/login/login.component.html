@@ -1,0 +1,16 @@
+<div class="container py-5 col-md-6 mt-5 border border-success rounded">
+    <h1 class="p-5 text-center">Login Page</h1>
+    <form [formGroup]="lForm" (ngSubmit)="onSubmit(lForm.value)">
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input type="email" class="form-control" formControlName="username">
+          
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password">
+        </div>
+        
+        <button type="submit" class="btn btn-success" [disabled]="lForm.invalid">Login</button>
+      </form>
+</div>

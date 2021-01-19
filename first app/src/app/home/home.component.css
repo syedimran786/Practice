@@ -1,0 +1,381 @@
+/* Corosal starts */
+.img-height
+{
+    height:450px;
+}
+
+.icon-size
+{
+    font-size: 40px;
+}
+
+.slide-icon
+{
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+}
+
+.mybtn
+{
+    padding: 10px 50px;
+    background-color: transparent;
+    background-image: radial-gradient(rgb(65, 97, 236),rgb(49, 148, 187) );
+    text-shadow: 0px 0px 10px rgba(0,0,0,0);
+    border-radius: 40px;
+    border: 1px solid rgb(65, 97, 236);
+    outline: none;
+    color:white;
+    font-size: 20px;
+    transition: transform 1s;
+}
+.mybtn:hover
+{
+    box-shadow: 0px 8px 20px 0px rgba(3, 71, 213, 0.36);
+    background-image: linear-gradient(255deg, rgb(31, 172, 197) 0%, rgb(20, 106, 139) 100%);
+    transform: scale(1.1);
+}
+
+h1
+{
+    font-size: 60px;
+}
+p
+{
+    font-size: 20px;
+}
+
+.bg1
+{
+    background-image:linear-gradient(rgba(14, 13, 13, 0.6),rgba(15, 15, 15, 0.6),rgba(0,0,0,0.6)),url('../../assets/images/banner.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 450px;
+}
+.bg2
+{
+    background-image:linear-gradient(rgba(14, 13, 13, 0.6),rgba(15, 15, 15, 0.6),rgba(0,0,0,0.6)),url('../../assets/images/b2.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 450px;
+}
+
+.bg3
+{
+    background-image:linear-gradient(rgba(14, 13, 13, 0.6),rgba(15, 15, 15, 0.6),rgba(0,0,0,0.6)),url('../../assets/images/e1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 450px;
+}
+
+.bg4
+{
+    background-image:linear-gradient(rgba(14, 13, 13, 0.6),rgba(15, 15, 15, 0.6),rgba(0,0,0,0.6)),url('../../assets/images/e2.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 450px;
+}
+
+.bg5
+{
+    background-image:linear-gradient(rgba(14, 13, 13, 0.6),rgba(15, 15, 15, 0.6),rgba(0,0,0,0.6)),url('../../assets/images/e3.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 450px;
+}
+
+.bg6
+{
+    background-image:linear-gradient(rgba(14, 13, 13, 0.6),rgba(15, 15, 15, 0.6),rgba(0,0,0,0.6)),url('../../assets/images/m1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 450px;
+}
+
+.bg7
+{
+    background-image:linear-gradient(rgba(14, 13, 13, 0.6),rgba(15, 15, 15, 0.6),rgba(0,0,0,0.6)),url('../../assets/images/m2.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 450px;
+}
+
+/* Corosal ends */
+
+
+/* What we do starts */
+
+.icon-h
+{
+    height: 20px;
+    width: 20px;
+}
+.icon-rounded
+{
+    border-radius: 25px;
+    background-color: rgba(230 220 220 / 69%);
+}
+
+.c-h
+{
+    height: 280px;
+}
+
+.c-h:hover
+{
+   background-color: rgb(203, 205, 206);
+}
+/* What we do ends */
+
+.mymt-5
+{
+    margin-top: 86px;
+}
+
+
+
+ 
+
+
+ /* Media Quryy Starts */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 459px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+    }
+
+    /* .carousel-caption
+    {
+        position: relative;
+        top: 146px;
+        left: 0px;
+    }
+
+    .btnres1
+    {
+        position: relative;
+        top: 18px;
+        left: 0px;
+    } */
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 10px;
+    }
+
+}
+@media (min-width: 460px) and (max-width: 574px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+    }
+
+    /* .carousel-caption
+    {
+        position: relative;
+        top: 146px;
+        left: 0px;
+    }
+
+    .btnres1
+    {
+        position: relative;
+        top: 18px;
+        left: 0px;
+    } */
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 10px;
+    }
+    
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 575px) and (max-width: 767.98px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+    }
+    /* .carousel-caption
+    {
+        position: relative;
+        top: 146px;
+        left: 0px;
+    }
+
+    .btnres1
+    {
+        position: relative;
+        top: 18px;
+        left: 0px;
+    } */
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 10px;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px)
+ {  
+    .myhtxtres1
+    {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    /* .carousel-caption
+    {
+        position: relative;
+        top: 146px;
+        left: 0px;
+    }
+
+    .btnres1
+    {
+        position: relative;
+        top: 18px;
+        left: 0px;
+    } */
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 10px;
+    }
+     .card-height
+    {
+        width: 115px;
+        height: 180px;
+    }
+    /*.card-margin
+    {
+        margin-left: -67px;
+    } */
+    .card-text
+    {
+        font-size: 12px;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) 
+ { 
+    .myhtxtres1
+    {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    /* .carousel-caption
+    {
+        position: relative;
+        top: 146px;
+        left: 0px;
+    }
+
+    .btnres1
+    {
+        position: relative;
+        top: 18px;
+        left: 0px;
+    } */
+    .mybtn
+    {
+        padding: 10px 35px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 10px;
+    }
+     /* .card-height
+    {
+        width: 182px;
+        height: 240px;
+    } */
+    /*.card-margin
+    {
+        margin-left: -67px;
+    } */
+    .card-text
+    {
+        font-size: 14px;
+    }
+  }

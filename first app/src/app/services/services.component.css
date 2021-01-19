@@ -1,0 +1,100 @@
+.l-ht
+{
+    line-height: 30px;
+}
+
+.mymt-5
+{
+    margin-top: 100px;
+}
+.mymt1-5
+{
+    margin-top: 120px;
+}
+.mymb-5
+{
+    margin-bottom: 80px;
+}
+
+/* Media Quryy Starts */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 459px)
+{
+    .myhtxtres1
+    {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .card-body .img-fluid
+    {
+        height: 200px;
+        width: 200px;
+    }
+  
+}
+@media (min-width: 460px) and (max-width: 574px)
+{
+    
+    .myhtxtres1
+    {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .card-body .img-fluid
+    {
+        height: 200px;
+        width: 200px;
+    }
+  
+}
+
+@media (min-width: 575px) and (max-width: 767.98px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .card-body .img-fluid
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px)
+ {  
+    
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .card-body .img-fluid
+    {
+        height: 350px;
+        width: 350px;
+    }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) 
+ { 
+    
+    
+  }
